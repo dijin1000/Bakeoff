@@ -1,4 +1,5 @@
 import datacontroller as dc
+import matplotlib.pyplot as plt
 
 #example defining new recipy
 if(False):
@@ -54,6 +55,7 @@ def parentSelection():
 
 #The crossover operator on two individuals holding only one child.
 def crossoverOperator(r1,r2):
+    print("TODO")
     for i in range():
         if(random() > _crossoverRate):
             r1[i] = r2[i]
@@ -61,6 +63,7 @@ def crossoverOperator(r1,r2):
 
 #The mutating operator that mutates a single individual.
 def mutationOperator(r1):
+    print("TODO")
     for i in range():
         if(random() > _crossoverRate):
             r1[i] = r1[i] + 1
@@ -130,3 +133,14 @@ while(currentsteps < _steps and currentconvergence < _convergence):
 
 
 print_recipy(best_found_solution[0])
+
+x  = range(currentsteps)
+plt.plot(x, max_fitnesses, label="line L")
+plt.fill_between(x, min_fitnesses, max_fitnesses, alpha=0.2)
+plt.plot()
+
+plt.xlabel("generation")
+plt.ylabel("fitness")
+plt.title("fitness over time")
+plt.legend()
+plt.show()
