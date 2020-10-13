@@ -1,0 +1,2 @@
+9/10 	Egon: I worked on the assignment by creating a small interface for a json file interprenter. ( 1 hour )
+13/10 	Egon: I worked on the assingment by setting up a small workflow of the genetic algorithm ( 1 hour )
