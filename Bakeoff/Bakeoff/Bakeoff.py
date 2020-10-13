@@ -42,12 +42,12 @@ def parentSelection():
     idx3 = 0
 
     while(idx > 0 or idx2 > 0):
-        if(idx > 0 and idx - generation[idx3][1] < 0):
+        if(idx > 0 and idx - generation[idx3][1]/max < 0):
             r1 = generation[idx3]
-        if(idx2 > 0 and idx2 - generation[idx3][1] < 0):
+        if(idx2 > 0 and idx2 - generation[idx3][1]/max < 0):
             r2 = generation[idx3]
-        idx -= generation[idx3][1]
-        idx2 -= generation[idx3][1]
+        idx -= generation[idx3][1]/max
+        idx2 -= generation[idx3][1]/max
         idx3 += 1
 
     return (r1,r2)
