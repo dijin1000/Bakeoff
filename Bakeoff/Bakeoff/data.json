@@ -4,32 +4,38 @@
       {
         "amount": 150,
         "unit": "g",
-        "name": "minced beef"
+        "name": "minced beef",
+        "type": 0
       },
       {
         "amount": 100,
         "unit": "g",
-        "name": "onion"
+        "name": "onion",
+        "type": 0
       },
       {
         "amount": 100,
         "unit": "ml",
-        "name": "water"
+        "name": "water",
+        "type": 1
       },
       {
         "amount": 300,
         "unit": "g",
-        "name": "tomato"
+        "name": "tomato",
+        "type": 2
       },
       {
         "amount": 5,
         "unit": "g",
-        "name": "chilli powder"
+        "name": "chilli powder",
+        "type": 3
       },
       {
         "amount": 300,
         "unit": "g",
-        "name": "red kidney beans"
+        "name": "red kidney beans",
+        "type": 4
       }
     ]
   }
