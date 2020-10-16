@@ -14,7 +14,7 @@ types = [
     "Fluid",      #5
 ]
 
-#example defining new recipy
+#example defining new recipy ( amount , unit, name, type as above ) 
 if(True):
     dc.define_whole_new_recipy(
         "beef chilli",
