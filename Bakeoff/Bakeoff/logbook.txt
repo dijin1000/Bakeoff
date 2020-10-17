@@ -1,2 +1,6 @@
 9/10 	Egon: I worked on the assignment by creating a small interface for a json file interprenter. ( 1 hour )
-13/10 	Egon: I worked on the assingment by setting up a small workflow of the genetic algorithm ( 1 hour )
+13/10 	Egon: I worked on the assingment by setting up a small workflow of the genetic algorithm. ( 1 hour )
+13/10   Unmukt: Accustomed to the setup created by Egon and added a few reflections based on my ideas of the Inspiring Set. ( 1/2 hour )
+15/10   Unmukt: Setup an Inspiring Set of cake recipes. The idea was to create recipes based on a machanism that factored in the purpose of each ingredient in a recipe. I use my own knowledge and instincts as a home chef with a cooking experiece of 6 years, as well as insights from a popular bakery. ( 6 hours )
+16/10   Unmukt: Finalize the Inspiring Set and Knowledge base. ( 2 hours )
+17/10   Unmukt: 

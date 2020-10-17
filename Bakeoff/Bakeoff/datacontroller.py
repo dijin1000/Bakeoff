@@ -1,4 +1,4 @@
-import json
+import json    # <-- could use YAML
 
 global data
 data = {}
@@ -19,18 +19,18 @@ def showData():
     global data 
     print(data)
 
-#create a new recipy with ingredients
-def define_whole_new_recipy(name,ingredients):
-    define_new_recipy(name)
+#create a new recipe with ingredients
+def define_whole_new_recipe(name,ingredients):
+    define_new_recipe(name)
     for ingredient in ingredients:
-        add_ingredients_to_recipy(name,ingredient[1],ingredient[2],ingredient[0])
+        add_ingredients_to_recipe(name,ingredient[1],ingredient[2],ingredient[0])
 
-#create a new recipy with only a name
-def define_new_recipy(name):
+#create a new recipe with only a name
+def define_new_recipe(name):
     data[name] = dataContainer()
 
-#add ingredients to a already excisting recipy
-def add_ingredients_to_recipy(name,ingredient_unit,ingredient_name,ingredient_amount=1):
+#add ingredients to a already excisting recipe
+def add_ingredients_to_recipe(name,ingredient_unit,ingredient_name,ingredient_amount=1):
     data[name].add_ingredient(ingredient_unit,ingredient_name,ingredient_amount)
 
 #recipy container
@@ -43,7 +43,9 @@ class dataContainer(dict):
 
 #ingredients container
 class ingredient(dict):
-    def __init__(self,_amount,_unit,_name):
+    def __init__(self,_amount,_unit,_name,_type,_subtype):
         self["amount"] =_amount
         self["unit"] = _unit
         self["name"] = _name
+        self["type"] = _type
+        self["sub-type"] = _subtype
