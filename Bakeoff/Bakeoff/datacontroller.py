@@ -1,4 +1,5 @@
-import json    # <-- could use YAML
+import json
+from enum import Enum
 
 global data
 data = {}
@@ -6,13 +7,14 @@ data = {}
 #load the current data
 def loadData():
     global data 
-    data = json.load("data.txt")
+    with open('data.json', 'r') as readfile:
+        data = json.loads(readfile.read())
 
 #completly overwrite the previous data with the current data
 def saveData():
     global data 
-    with open('data.txt', 'w') as outfile:
-        json.dump(data, outfile,indent=2,sort_keys=False)
+    with open('data.json', 'w') as outfile:
+        json.dump(data, outfile,indent=2,sort_keys=False,default=str)
 
 #print the current data
 def showData():
@@ -23,23 +25,23 @@ def showData():
 def define_whole_new_recipe(name,ingredients):
     define_new_recipe(name)
     for ingredient in ingredients:
-        add_ingredients_to_recipe(name,ingredient[1],ingredient[2],ingredient[0])
+        add_ingredients_to_recipy(name,ingredient[1],ingredient[2],ingredient[3],ingredient[0])
 
 #create a new recipe with only a name
 def define_new_recipe(name):
     data[name] = dataContainer()
 
-#add ingredients to a already excisting recipe
-def add_ingredients_to_recipe(name,ingredient_unit,ingredient_name,ingredient_amount=1):
-    data[name].add_ingredient(ingredient_unit,ingredient_name,ingredient_amount)
+#add ingredients to a already excisting recipy
+def add_ingredients_to_recipy(name,ingredient_unit,ingredient_name,ingredient_type,ingredient_amount=1):
+    data[name].add_ingredient(ingredient_unit,ingredient_name,ingredient_type,ingrediengit add.t_amount)
 
 #recipy container
 class dataContainer(dict):
     def __init__(self):
         self["ingredients"] = list()
     
-    def add_ingredient(self,ingredient_unit,ingredient_name,ingredient_amount=1):
-        self["ingredients"].append(ingredient(ingredient_amount,ingredient_unit,ingredient_name))
+    def add_ingredient(self,ingredient_unit,ingredient_name,ingredient_type,ingredient_amount=1):
+        self["ingredients"].append(ingredient(ingredient_amount,ingredient_unit,ingredient_name,ingredient_type))
 
 #ingredients container
 class ingredient(dict):

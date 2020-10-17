@@ -1,0 +1,42 @@
+{
+  "beef chilli": {
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "minced beef",
+        "type": 0
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "onion",
+        "type": 0
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "water",
+        "type": 1
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "tomato",
+        "type": 2
+      },
+      {
+        "amount": 5,
+        "unit": "g",
+        "name": "chilli powder",
+        "type": 3
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "red kidney beans",
+        "type": 4
+      }
+    ]
+  }
+}

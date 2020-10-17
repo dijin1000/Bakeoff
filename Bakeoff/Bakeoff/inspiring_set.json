@@ -1,0 +1,2651 @@
+{
+    "Apple Cake": {
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "113",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "227",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "2",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "170",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking soda",
+                "amount": "3.5",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Apples",
+                "amount": "1.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Walnuts",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Ice Cream",
+                "amount": "4",
+                "unit": "pc",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            }
+        ],
+        "servings": "8"
+    },
+    "Carrot Cake": {
+        "ingredients": [
+            {
+                "name": "Granulated sugar",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": "227",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "278",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Baking soda",
+                "amount": "3.5",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Carrots",
+                "amount": "3",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Walnuts",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "227",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "113",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Milk",
+                "amount": "3",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "448",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Red Velvet Cake": {
+        "ingredients": [
+            {
+                "name": "All-purpose flour",
+                "amount": "346",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Unsweetened cocoa powder",
+                "amount": "15",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "3",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": "340",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Buttermilk",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Food color",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "2",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "68",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Milk",
+                "amount": "1.5",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "168",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "340",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "3.5",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Black Forest Cake": {
+        "ingredients": [
+            {
+                "name": "All-purpose flour",
+                "amount": "278",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "270",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Baking soda",
+                "amount": "4",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Unsweetened cocoa powder",
+                "amount": "85",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Water",
+                "amount": "1.25",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "158",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Sweetened Cherry",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Egg whites",
+                "amount": "6",
+                "unit": "pc",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "168",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "340",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Shaved chocolate",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "German Chocolate Cake": {
+        "ingredients": [
+            {
+                "name": "Baking chocolate",
+                "amount": "113",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Water",
+                "amount": "1.25",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Cake flour",
+                "amount": "246",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking soda",
+                "amount": "3.5",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "400",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "227",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "5",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Buttermilk",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Egg yolks",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "170",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "113",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Evaporated milk",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Sweetner",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Shredded coconut",
+                "amount": "93",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Pecans",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Flourless Chocolate Cake": {
+        "ingredients": [
+            {
+                "name": "Baking chocolate",
+                "amount": "340",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "180",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "200",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "6",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Unsweetened cocoa powder",
+                "amount": "68",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Espresso powder",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Pound Cake": {
+        "ingredients": [
+            {
+                "name": "All-purpose flour",
+                "amount": "200",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.125",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "250",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "113",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Evaporated milk",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner",
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Chocolate Yellow Butter Cake": {
+        "ingredients": [
+            {
+                "name": "All-purpose flour",
+                "amount": "270",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "170",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Evaporated milk",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Sour cream",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "340",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "448",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Unsweetened cocoa powder",
+                "amount": "90",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Milk",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Boston Cream Pie": {
+        "ingredients": [
+            {
+                "name": "Eggs",
+                "amount": "2",
+                "unit": "pc",
+                "category": "Filling",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Milk",
+                "amount": "1.5",
+                "unit": "cups",
+                "category": "Filling",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "70",
+                "unit": "grams",
+                "category": "Filling",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "6",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flour",
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.125",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Cake flour",
+                "amount": "246",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "200",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "76",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Milk",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "1",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "42.5",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Baking chocolate",
+                "amount": "85",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Water",
+                "amount": "0.125",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "112",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "0.75",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "8"
+    },
+    "Chocolate Bourbon Pumpkin Cheesecake": {
+        "ingredients": [
+            {
+                "name": "Gingersnap cookie crumbs",
+                "amount": "2",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Texture",
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "56",
+                "unit": "grams",
+                "category": "Crust",
+                "sub-category": [
+                    "Flavour",
+                    "Binding"
+                ]
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "227",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "35",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "4",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Bourbon",
+                "amount": "0.25",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Pumpkin",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Aromatic bitters",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "'Flavour"
+                ]
+            },
+            {
+                "name": "Ground ginger",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Nutmeg",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Caramel",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Bourbon",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "16"
+    },
+    "Raspberry-White Chocolate Cream Cake": {
+        "ingredients": [
+            {
+                "name": "Granulated sugar",
+                "amount": "50",
+                "unit": "grams",
+                "category": "Filling",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "6",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flour",
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.125",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "15",
+                "unit": "grams",
+                "category": "Filling",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Raspberry flavoured wine cooler",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Filling",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Almond extract",
+                "amount": "0.125",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Baking white chocolate",
+                "amount": "85",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "306",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "2.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "400",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Almond extract",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Baking white chocolate",
+                "amount": "85",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "336",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Raspberry flavoured wine cooler",
+                "amount": "8",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "42.5",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Almond extract",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "16"
+    },
+    "Amaretto-Pumpkin Cheesecake": {
+        "ingredients": [
+            {
+                "name": "Amaretti cookie crumbs",
+                "amount": "1.25",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "56",
+                "unit": "grams",
+                "category": "Crust",
+                "sub-category": [
+                    "Flavour",
+                    "Binding"
+                ]
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "900",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "4",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Ground ginger",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Nutmeg",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Pumpkin",
+                "amount": "1.75",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "7",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Almond extract",
+                "amount": "0.125",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Roasted almonds",
+                "amount": "0.25",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "16"
+    },
+    "Chocolate-Cherry Ice-Cream Cake": {
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "60",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Oreo chocolate cookie",
+                "amount": "24",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Cherry vanilla ice-cream",
+                "amount": "600",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Vanilla ice-cream",
+                "amount": "600",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Fudge ice-cream sauce",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Sweetened Cherry",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "7",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Mocha Streusel Coffee Cake": {
+        "ingredients": [
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "0.67",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Pecans",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "70",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "15.5",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Instant coffee",
+                "amount": "3",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "365",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "2",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Baking soda",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "200",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "227",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Almond extract",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Sour cream",
+                "amount": "245",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Blueberry Coffee Cake": {
+        "ingredients": [
+            {
+                "name": "All-purpose flour",
+                "amount": "170",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "100",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "0.5",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Powdered sugar",
+                "amount": "60",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Water",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Frosting",
+                "sub-category": [
+                    "Texture"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "265",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "160",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Shortening",
+                "amount": "50",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Milk",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Baking powder",
+                "amount": "2.5",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.75",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "1",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Blueberry",
+                "amount": "2",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner",
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "9"
+    },
+    "Chocolate Malt Ice-Cream Cake": {
+        "ingredients": [
+            {
+                "name": "All-purpose flour",
+                "amount": "200",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "212.5",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Water",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Unsweetened cocoa powder",
+                "amount": "30",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Baking soda",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Vegetable oil",
+                "amount": "77",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "White vinegar",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Chocolate fudge",
+                "amount": "1.25",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Vanilla ice-cream",
+                "amount": "6",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Chocolate candies",
+                "amount": "2",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "300",
+                "unit": "grams",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Triple-Chocolate Cake": {
+        "ingredients": [
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "1.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "4",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "14.5",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Cornstarch",
+                "amount": "6",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Flour",
+                    "Catalyst"
+                ]
+            },
+            {
+                "name": "Shortening",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Filling",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Semi-sweet chocolate chips",
+                "amount": "0.25",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Emulsifier"
+                ]
+            }
+        ],
+        "servings": "12"
+    },
+    "Sweet Potato Cheesecake": {
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "1.25",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Egg yolks",
+                "amount": "1",
+                "unit": "pc",
+                "category": "Crust",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Sweet potato",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Nutmeg",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Vanilla",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "625",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "4",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "86",
+                "unit": "grams",
+                "category": "Frosting",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Cinnamon",
+                "amount": "1",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Pecans",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Frosting",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "16"
+    },
+    "New York Cheesecake": {
+        "ingredients": [
+            {
+                "name": "Butter",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "All-purpose flour",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Flour"
+                ]
+            },
+            {
+                "name": "Granulated sugar",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Egg yolks",
+                "amount": "1",
+                "unit": "pc",
+                "category": "Crust",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Orange zest",
+                "amount": "3",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Lemon zest",
+                "amount": "3",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Salt",
+                "amount": "0.25",
+                "unit": "teaspoon",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "5",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Egg yolks",
+                "amount": "2",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "0.25",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "almonds",
+                "amount": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            }
+        ],
+        "servings": "16"
+    },
+    "Salted Caramel Cheesecake": {
+        "ingredients": [
+            {
+                "name": "Graham cracker crumbs",
+                "amount": "1.75",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "0.25",
+                "unit": "cups",
+                "category": "Crust",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "0.5",
+                "unit": "grams",
+                "category": "Crust",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Cream cheese",
+                "amount": "675",
+                "unit": "grams",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "1",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Eggs",
+                "amount": "3",
+                "unit": "pc",
+                "category": "Base",
+                "sub-category": [
+                    "Emulsifier",
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "0.75",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Caramel coffee syrup",
+                "amount": "0.25",
+                "unit": "cups",
+                "category": "Base",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Butter",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Emulsifier"
+                ]
+            },
+            {
+                "name": "Brown sugar",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Sweetner"
+                ]
+            },
+            {
+                "name": "Caramel coffee syrup",
+                "amount": "2",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Whipping cream",
+                "amount": "0.5",
+                "unit": "cups",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour",
+                    "Texture"
+                ]
+            },
+            {
+                "name": "Flaked sea salt",
+                "amount": "1.5",
+                "unit": "teaspoon",
+                "category": "Topping",
+                "sub-category": [
+                    "Flavour"
+                ]
+            }
+        ],
+        "servings": "16"
+    }
+}
