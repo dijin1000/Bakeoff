@@ -25,7 +25,7 @@
     <Compile Include="datacontroller.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data.json" />
+    <Content Include="inspiring_set.json" />
     <Content Include="logbook.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

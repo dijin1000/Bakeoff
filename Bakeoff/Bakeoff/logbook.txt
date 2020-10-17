@@ -1,6 +1,26 @@
 9/10 	Egon: I worked on the assignment by creating a small interface for a json file interprenter. ( 1 hour )
-13/10 	Egon: I worked on the assingment by setting up a small workflow of the genetic algorithm. ( 1 hour )
+13/10 	Egon: I worked on the assingment by setting up a small workflow of the genetic algorithm. ( 2 hour )
 13/10   Unmukt: Accustomed to the setup created by Egon and added a few reflections based on my ideas of the Inspiring Set. ( 1/2 hour )
+15/10	Egon: Adding some additions towards the mutation operator and the crossover operator. Discussed with Unkmut to match the description of the inspiring set. ( 3 hour)
 15/10   Unmukt: Setup an Inspiring Set of cake recipes. The idea was to create recipes based on a machanism that factored in the purpose of each ingredient in a recipe. I use my own knowledge and instincts as a home chef with a cooking experiece of 6 years, as well as insights from a popular bakery. ( 6 hours )
 16/10   Unmukt: Finalize the Inspiring Set and Knowledge base. ( 2 hours )
+16/10	Egon: Updated the mutation operator and the crossover operator to work with different kind of setups, and realistic approaches instead of toy functionalities. (2 hour)
+17/10	Egon: Updated the mutation operator and the crossover operator to work with different kind of setups, and realistic approaches instead of toy functionalities. (3 hour)
+17/10	Egon: Implemented a toy evaluation function. ( 1/2 hour)
+17/10	Egon: Updated the considerations for this project. ( 1 hour)
 17/10   Unmukt: 
+
+Considerations:
+The first step is that we took in the consideration how we want to shape the inspiring set. As we needed specific information for the inspiring set to work in the Genetic Algorithm. We decided to work with inside information to make more sense in the recipies. We decide that ingredients have two extra identifiers we will be using in the recipy generator. The type which indicates for which kind of steps the ingredients are used in. The other was a one to many indentifier which is a subcategory of the base category. 
+
+The second considerations was regarding the implementation of the Genetic Algorithm, as the different operators dictated much how the recipies are generated. We have three operators: mutation, crossover and selections.
+
+The mutation operator should be a small but impactfull operator that explores the complete search space, with restriction to maintain the integretity of the cake recipy. We decided that a cake has always some kind of ingredients in that makes a cake a cake, and for that we decide that these should a mayor decision. However the mutation operator is the one that pushes us into unknown search space teritory. And we decided that similiar product should be able to popup as the "mutation" of a recipy.
+
+The crossover operator should be mostly a operator that would make the Genetic Algorithm close in and good solutions and share those with each other. It should be the explorer and be the part that slows down and narrows it down to good performing recipies. Thats why we crossover on ingredients of the same core type to not change any of the structural of the cake. For example a Topping ingredient can be exchanged for another topping, such that the in only crosses over within the pool of all ingredients in both recipies.
+
+The selection operator is split into two factors the way parents are selecting for generating offspring and the way of selecting new members to the next generation. The parent selection operator is a basic wheel selection based on the fitness to so futher improve on the fitness of the population. This to emphasise on the strong recipies, and try to get only recipies that are probablistic good recipies. However to give recipies that are more out of the ordernaire a chance we implemented it with this wheel selection where better fit (good) recipies have more chances but the bad solutions aren't discarded right away. The population selector operator is a simple best recipy selection between parents and the newly generated offspring.
+
+The third consideration was regarding what makes a recipy a good recipy for a cake. This heavily impacts fitness function of our Genetic Algorithm.
+
+The fourth consideration was regarding how we want to present the create recipies and in which format.

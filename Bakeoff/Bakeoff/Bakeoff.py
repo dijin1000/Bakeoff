@@ -2,137 +2,129 @@ import datacontroller as dc
 import matplotlib.pyplot as plt
 import random as rnd
 import collections
+from operator import itemgetter
 from datacontroller import data as data
-
-#the types of ingredients we define
-types = [
-    "Sour",       #0
-    "Water",      #1
-    "Sweetness",  #2
-    "Flour",      #3
-    "Spice",      #4
-    "Fluid",      #5
-]
-
-#example defining new recipy ( amount , unit, name, type as above ) 
-if(True):
-    dc.define_whole_new_recipy(
-        "beef chilli",
-        [
-            [150,"g","minced beef",0],
-            [100,"g","onion", 0],
-            [100,"ml","water", 1],
-            [300,"g","tomato", 2],
-            [5,"g","chilli powder", 3],
-            [300,"g","red kidney beans", 4]
-        ])
-    dc.saveData()
+from progress.spinner import Spinner
+from progress.bar import Bar
 
 #configuration settings
-_mu = 1
-_lambda = 10
-_steps = 10000
+_mu = 50
+_lambda = 100
+_steps = 2000
 _convergence = 0.000001
-_crossoverRate = 0.01
+_crossover_rate = 0.1
+_mutation_type = 0.001
+_mutation_amount = 0.001
+_mutation_power = 200
 
 #Create the initial population according to the (parent)population size (_mu)
+#and finding the intial evaluation function.
 def createPopulation():
     global generation
-    global dict 
 
-    #generation = rnd.random.choices(data,k=_mu)
-    generation = [(data["beef chilli"], 1)]
-
-
-    zeta = [x for recipy in list(data.values()) for x in recipy["ingredients"]]
-
-    dict = collections.defaultdict()
-
-    for ingredient in zeta:
-        dict.setdefault(ingredient["type"], []).append(ingredient) 
-
+    list_of_individuals = rnd.choices(list(dc.data.values()),k=_mu)
+    generation = [(individual["ingredients"], evaluateFunction(individual["ingredients"])) for individual in list_of_individuals]
     return
 
-#Wheel selection on parents, better parents have more chance to be having a child then others.
+#Wheel selection on parents, better parents have more chance to be having a child 
+#then others. It selects two random indexes and then checks which fitness 
+#that would be.
 def parentSelection():
     global generation
 
-    generation.sort(key=lambda x:x[1])
+    generation.sort(key=lambda x:x[1],reverse=True)
+    max_fitness = sum(fit for _, fit in generation)
+    random_fitness_p1 = rnd.random()
+    random_fitness_p2 = rnd.random()
+    index = 0
 
-    max = sum(fit for _, fit in generation)
-
-    idx = rnd.random()
-    idx2 = rnd.random()
-
-    idx3 = 0
-
-    while(idx > 0 or idx2 > 0):
-        if(idx > 0 and idx - generation[idx3][1]/max < 0):
-            r1 = generation[idx3]
-        if(idx2 > 0 and idx2 - generation[idx3][1]/max < 0):
-            r2 = generation[idx3]
-        idx -= generation[idx3][1]/max
-        idx2 -= generation[idx3][1]/max
-        idx3 += 1
+    while(random_fitness_p1 > 0 or random_fitness_p2 > 0):
+        if(random_fitness_p1 > 0 and random_fitness_p1 - generation[index][1]/max_fitness < 0):
+            r1 = generation[index]
+        if(random_fitness_p2 > 0 and random_fitness_p2 - generation[index][1]/max_fitness < 0):
+            r2 = generation[index]
+        random_fitness_p1 -= generation[index][1]/max_fitness
+        random_fitness_p2 -= generation[index][1]/max_fitness
+        index += 1
 
     return (r1[0],r2[0])
 
-#The crossover operator on two individuals holding only one child.
+#The crossover operator on two individuals holding only one child. It crossover on
+#similiar on the bases component within the two ingredients.
 def crossoverOperator(r1,r2):
-    print("TODO")
+    dict = defaultdict()
 
-    r1_unique_idenitifier = list(set(map(lambda d: d['type'], r1["ingredients"])))
-    r2_unique_idenitifier = list(set(map(lambda d: d['type'], r2["ingredients"])))
+    for ingredient in r1:
+        dict.setdefault(_ingredient["component"], []).append((1,ingredient))
+    for ingredient in r2:
+        dict.setdefault(_ingredient["component"], []).append((2,ingredient))
 
-    unique_idenitifiers = r1_unique_idenitifier
+    crossovered = []
 
-    copy = r1["ingredients"]
+    for key,value in dict:
+        for ingredient in value:
+            if(ingredient[0] == 1 and rnd.random() > _crossover_rate):
+               crossovered.append(ingredient[1])
+            if(ingredient[0] == 2 and rnd.random() < _crossover_rate):
+                crossovered.append(ingredient[1])
+            
+    return crossovered
 
-    for idx in range(len(copy)):
-        if(rnd.random() < _crossover):
+#A subroutine that based on the subtype(property of the ingredient finds a ingredient 
+#that shares that subtype. This can introduce also other new subtypes, if the new ingredient
+#shares other subtypes.
+def convertion(property_list,ingredient):
+    property_idx = rnd.randint(0,len(property_list)-1)
+    property = property_list[property_idx]
 
-            possibles = list(filter(lambda person: person['type'] == ingredient['type'], r2["ingredients"]))
-            if(len(possibles) != 0):
-                index = rnd.randint(0,len(possibles))
-                copy[idx] = possibles[idx]
+    list = dc.ingredient_subtype_dict[property]
 
-    return copy
-
-#
-def convertion(type,ingredient):
-    global dict
-
-    list = dict[type]
-    list.remove(ingredient)
-
-    idx = rnd.randint(0,len(list))
+    idx = rnd.randint(0,len(list)-1)
 
     return list[idx]
 
-#The mutating operator that mutates a single individual.
+#The mutating operator that mutates a single individual. It individual has a chance
+#to mutate the type of ingredient and the amount by a fixed max amount.
 def mutationOperator(r1):
-    print("TODO")
-    for i in range(len(r1["ingredients"])):
+    for i in range(len(r1)):
         if(rnd.random() < _mutation_type):
-            r1["ingredients"][i] = convertion(r1["ingredients"][i]["type"])
+            r1[i] = convertion(r1[i]["property"],r1[i])
         if(rnd.random() < _mutation_amount):
-            r1["ingredients"][i]["amount"] += rnd.randint(-mutation_power,mutation_power)
+            r1[i]["amount"] = str(max([float(r1[i]["amount"]) + rnd.uniform(-_mutation_power,_mutation_power),0.1]))
     return r1
 
-#The selection opeartor that picks the mu best individuals in a group of individuals
+#The selection opeartor that picks the mu best individuals in a group of individuals.
+#It selects the top _mu individuals in the list, based of the fitness function.
 def selectionOperator(individuals):
-    individuals.sort(key=lambda tuple:tuple[1])
+    individuals.sort(key=lambda tuple:tuple[1],reverse=True)
     return individuals[0:_mu]
 
 #The normalization operator to ensure that the recipies are correct and feasiable.
 def normaliseOperator(r1):
-    print("TODO")
+    ingredient_dict = collections.defaultdict()
+
+    for _ingredient in r1:
+        ingredient_dict.setdefault(_ingredient["name"], []).append(_ingredient)
+
+    new_ingredient_list = []
+    for _,value in ingredient_dict.items():
+        new_amount = 0 
+        for ingredient_amount in value:
+            new_amount += float(ingredient_amount["amount"])
+
+        combined_ingredient = dc.ingredient(str(new_amount),value[0]["unit"],value[0]["name"],value[0]["component"],value[0]["property"])
+        new_ingredient_list.append(combined_ingredient)
+
+    r1 = new_ingredient_list
     return r1
 
 #The evaluation function that determines how good the recipy is.
 def evaluateFunction(r1):
-    print("TODO")
-    return 1
+    
+    #for ingredient in r1["ingredients"]:
+
+
+    return len(r1) + len(set([recipy["property"] for recipy in r1]))*10 + len(set([recipy["component"] for recipy in r1])) * 50
 
 #A step in the genetic process.
 def geneticStep():
@@ -144,16 +136,15 @@ def geneticStep():
         r1, r2 = parentSelection()
         r1 = crossoverOperator(r1,r2)
         r1 = mutationOperator(r1)
-        r1 = normalise(r1)
+        r1 = normaliseOperator(r1)
         fr1 = evaluateFunction(r1)
         child = (r1,fr1)
         children.append(child)
 
-    generation = selectionOperator(generation,children)
+    generation = selectionOperator(generation + children)
     return
 
-def printRecipy(recipy):
-    print("TODO")
+def print_recipy(recipy):
     return
 
 
@@ -161,29 +152,36 @@ def printRecipy(recipy):
 dc.loadData()
 
 createPopulation()
-
 currentsteps = 0
 currentconvergence = 1
-
 max_fitnesses = []
 min_fitnesses = []
 
 global best_found_solution
+best_found_solution = "No recipy found",0
 
-while(currentsteps < _steps and currentconvergence > _convergence):
-    geneticStep()
+with Bar('Processing', max=_steps) as bar:
+    for currentsteps in range(_steps): #and currentconvergence > _convergence):
+        geneticStep()
 
-    best = max(generation)[1]
-    if(best[1] > best_found_solution[1]):
-        best_found_solution = best
+        best = max(generation,key=itemgetter(1))
+        worst = min(generation,key=itemgetter(1))
 
-    worstFit = min(generation)[1][1]
-    bestFit = best[1]
-    min_fitnesses.append(worstFit)
-    max_fitnesses.append(bestFit)
+        currentconvergence = abs(best[1] - best_found_solution[1])
+
+        if(best[1] > best_found_solution[1]):
+            best_found_solution = best
+
+        worstFit = worst[1]
+        bestFit = best[1]
+        min_fitnesses.append(worstFit)
+        max_fitnesses.append(bestFit)
+        bar.next()
 
 
-print_recipy(best_found_solution[0])
+
+for recipy in generation:
+    print_recipy(recipy)
 
 x  = range(currentsteps)
 plt.plot(x, max_fitnesses, label="line L")
