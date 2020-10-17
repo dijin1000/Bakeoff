@@ -5,8 +5,8 @@
                 "name": "Butter",
                 "amount": "113",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -14,8 +14,8 @@
                 "name": "Granulated sugar",
                 "amount": "227",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -23,8 +23,8 @@
                 "name": "Eggs",
                 "amount": "2",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -34,8 +34,8 @@
                 "name": "Vanilla",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -43,8 +43,8 @@
                 "name": "All-purpose flour",
                 "amount": "170",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -52,8 +52,8 @@
                 "name": "Baking soda",
                 "amount": "3.5",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -61,8 +61,8 @@
                 "name": "Cinnamon",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -70,8 +70,8 @@
                 "name": "Salt",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -79,8 +79,8 @@
                 "name": "Apples",
                 "amount": "1.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -89,8 +89,8 @@
                 "name": "Walnuts",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -99,8 +99,8 @@
                 "name": "Ice Cream",
                 "amount": "4",
                 "unit": "pc",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -114,8 +114,8 @@
                 "name": "Granulated sugar",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -123,8 +123,8 @@
                 "name": "Vegetable oil",
                 "amount": "227",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -132,8 +132,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -143,8 +143,8 @@
                 "name": "All-purpose flour",
                 "amount": "278",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -152,8 +152,8 @@
                 "name": "Cinnamon",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -161,8 +161,8 @@
                 "name": "Baking soda",
                 "amount": "3.5",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -170,8 +170,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -179,8 +179,8 @@
                 "name": "Salt",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -188,8 +188,8 @@
                 "name": "Carrots",
                 "amount": "3",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -198,8 +198,8 @@
                 "name": "Walnuts",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -208,8 +208,8 @@
                 "name": "Cream cheese",
                 "amount": "227",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -218,8 +218,8 @@
                 "name": "Butter",
                 "amount": "113",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -227,8 +227,8 @@
                 "name": "Milk",
                 "amount": "3",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -236,8 +236,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -245,8 +245,8 @@
                 "name": "Powdered sugar",
                 "amount": "448",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -260,8 +260,8 @@
                 "name": "All-purpose flour",
                 "amount": "346",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -269,8 +269,8 @@
                 "name": "Granulated sugar",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -278,8 +278,8 @@
                 "name": "Unsweetened cocoa powder",
                 "amount": "15",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Flour"
                 ]
@@ -288,8 +288,8 @@
                 "name": "Baking powder",
                 "amount": "3",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -297,8 +297,8 @@
                 "name": "Salt",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -306,8 +306,8 @@
                 "name": "Vegetable oil",
                 "amount": "340",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -315,8 +315,8 @@
                 "name": "Buttermilk",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -324,8 +324,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -333,8 +333,8 @@
                 "name": "Food color",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Texture"
                 ]
             },
@@ -342,8 +342,8 @@
                 "name": "Eggs",
                 "amount": "2",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -353,8 +353,8 @@
                 "name": "All-purpose flour",
                 "amount": "68",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flour"
                 ]
             },
@@ -362,8 +362,8 @@
                 "name": "Milk",
                 "amount": "1.5",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -371,8 +371,8 @@
                 "name": "Powdered sugar",
                 "amount": "168",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -381,8 +381,8 @@
                 "name": "Butter",
                 "amount": "340",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -390,8 +390,8 @@
                 "name": "Vanilla",
                 "amount": "3.5",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             }
@@ -404,8 +404,8 @@
                 "name": "All-purpose flour",
                 "amount": "278",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -413,8 +413,8 @@
                 "name": "Granulated sugar",
                 "amount": "270",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -422,8 +422,8 @@
                 "name": "Baking soda",
                 "amount": "4",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -431,8 +431,8 @@
                 "name": "Baking powder",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -440,8 +440,8 @@
                 "name": "Salt",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -449,8 +449,8 @@
                 "name": "Unsweetened cocoa powder",
                 "amount": "85",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Flour"
                 ]
@@ -459,8 +459,8 @@
                 "name": "Water",
                 "amount": "1.25",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Texture"
                 ]
             },
@@ -468,8 +468,8 @@
                 "name": "Butter",
                 "amount": "158",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -477,8 +477,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -488,8 +488,8 @@
                 "name": "Vanilla",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -497,8 +497,8 @@
                 "name": "Sweetened Cherry",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -506,8 +506,8 @@
                 "name": "Egg whites",
                 "amount": "6",
                 "unit": "pc",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -516,8 +516,8 @@
                 "name": "Powdered sugar",
                 "amount": "168",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -526,8 +526,8 @@
                 "name": "Butter",
                 "amount": "340",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -535,8 +535,8 @@
                 "name": "Vanilla",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -544,8 +544,8 @@
                 "name": "Shaved chocolate",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -559,8 +559,8 @@
                 "name": "Baking chocolate",
                 "amount": "113",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -569,8 +569,8 @@
                 "name": "Water",
                 "amount": "1.25",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Texture"
                 ]
             },
@@ -578,8 +578,8 @@
                 "name": "Cake flour",
                 "amount": "246",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -587,8 +587,8 @@
                 "name": "Baking soda",
                 "amount": "3.5",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -596,8 +596,8 @@
                 "name": "Salt",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -605,8 +605,8 @@
                 "name": "Granulated sugar",
                 "amount": "400",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -614,8 +614,8 @@
                 "name": "Butter",
                 "amount": "227",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -623,8 +623,8 @@
                 "name": "Eggs",
                 "amount": "5",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -634,8 +634,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -643,8 +643,8 @@
                 "name": "Buttermilk",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -652,8 +652,8 @@
                 "name": "Egg yolks",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -663,8 +663,8 @@
                 "name": "Brown sugar",
                 "amount": "170",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -673,8 +673,8 @@
                 "name": "Butter",
                 "amount": "113",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -682,8 +682,8 @@
                 "name": "Evaporated milk",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Sweetner",
                     "Flavour",
                     "Texture"
@@ -693,8 +693,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -702,8 +702,8 @@
                 "name": "Shredded coconut",
                 "amount": "93",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -712,8 +712,8 @@
                 "name": "Pecans",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -727,8 +727,8 @@
                 "name": "Baking chocolate",
                 "amount": "340",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -737,8 +737,8 @@
                 "name": "Butter",
                 "amount": "180",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -746,8 +746,8 @@
                 "name": "Granulated sugar",
                 "amount": "200",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -755,8 +755,8 @@
                 "name": "Eggs",
                 "amount": "6",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -766,8 +766,8 @@
                 "name": "Unsweetened cocoa powder",
                 "amount": "68",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Flour"
                 ]
@@ -776,8 +776,8 @@
                 "name": "Espresso powder",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -785,8 +785,8 @@
                 "name": "Whipping cream",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -800,8 +800,8 @@
                 "name": "All-purpose flour",
                 "amount": "200",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -809,8 +809,8 @@
                 "name": "Baking powder",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -818,8 +818,8 @@
                 "name": "Salt",
                 "amount": "0.125",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -827,8 +827,8 @@
                 "name": "Granulated sugar",
                 "amount": "250",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -836,8 +836,8 @@
                 "name": "Butter",
                 "amount": "113",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -845,8 +845,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -856,8 +856,8 @@
                 "name": "Vanilla",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -865,8 +865,8 @@
                 "name": "Evaporated milk",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner",
                     "Flavour",
                     "Texture"
@@ -881,8 +881,8 @@
                 "name": "All-purpose flour",
                 "amount": "270",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -890,8 +890,8 @@
                 "name": "Baking powder",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -899,8 +899,8 @@
                 "name": "Salt",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -908,8 +908,8 @@
                 "name": "Granulated sugar",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -917,8 +917,8 @@
                 "name": "Butter",
                 "amount": "170",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -926,8 +926,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -937,8 +937,8 @@
                 "name": "Vanilla",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -946,8 +946,8 @@
                 "name": "Evaporated milk",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner",
                     "Flavour",
                     "Texture"
@@ -957,8 +957,8 @@
                 "name": "Sour cream",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -967,8 +967,8 @@
                 "name": "Butter",
                 "amount": "340",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -976,8 +976,8 @@
                 "name": "Powdered sugar",
                 "amount": "448",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -986,8 +986,8 @@
                 "name": "Unsweetened cocoa powder",
                 "amount": "90",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Flour"
                 ]
@@ -996,8 +996,8 @@
                 "name": "Milk",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1005,8 +1005,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             }
@@ -1019,8 +1019,8 @@
                 "name": "Eggs",
                 "amount": "2",
                 "unit": "pc",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -1030,8 +1030,8 @@
                 "name": "Milk",
                 "amount": "1.5",
                 "unit": "cups",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1039,8 +1039,8 @@
                 "name": "Granulated sugar",
                 "amount": "70",
                 "unit": "grams",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1048,8 +1048,8 @@
                 "name": "Cornstarch",
                 "amount": "6",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flour",
                     "Catalyst"
                 ]
@@ -1058,8 +1058,8 @@
                 "name": "Salt",
                 "amount": "0.125",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1067,8 +1067,8 @@
                 "name": "Vanilla",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1076,8 +1076,8 @@
                 "name": "Cake flour",
                 "amount": "246",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1085,8 +1085,8 @@
                 "name": "Granulated sugar",
                 "amount": "200",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1094,8 +1094,8 @@
                 "name": "Butter",
                 "amount": "76",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1103,8 +1103,8 @@
                 "name": "Milk",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner",
                     "Flavour",
                     "Texture"
@@ -1114,8 +1114,8 @@
                 "name": "Baking powder",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour",
                     "Texture"
                 ]
@@ -1124,8 +1124,8 @@
                 "name": "Salt",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1133,8 +1133,8 @@
                 "name": "Eggs",
                 "amount": "1",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -1144,8 +1144,8 @@
                 "name": "Butter",
                 "amount": "42.5",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1153,8 +1153,8 @@
                 "name": "Baking chocolate",
                 "amount": "85",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1163,8 +1163,8 @@
                 "name": "Water",
                 "amount": "0.125",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Texture"
                 ]
             },
@@ -1172,8 +1172,8 @@
                 "name": "Powdered sugar",
                 "amount": "112",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1182,8 +1182,8 @@
                 "name": "Vanilla",
                 "amount": "0.75",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             }
@@ -1196,8 +1196,8 @@
                 "name": "Gingersnap cookie crumbs",
                 "amount": "2",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Texture",
                     "Flavour"
                 ]
@@ -1206,8 +1206,8 @@
                 "name": "Butter",
                 "amount": "56",
                 "unit": "grams",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flavour",
                     "Binding"
                 ]
@@ -1216,8 +1216,8 @@
                 "name": "Cream cheese",
                 "amount": "227",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1226,8 +1226,8 @@
                 "name": "Granulated sugar",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1235,8 +1235,8 @@
                 "name": "All-purpose flour",
                 "amount": "35",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1244,8 +1244,8 @@
                 "name": "Eggs",
                 "amount": "4",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -1255,8 +1255,8 @@
                 "name": "Bourbon",
                 "amount": "0.25",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1264,8 +1264,8 @@
                 "name": "Pumpkin",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1273,8 +1273,8 @@
                 "name": "Aromatic bitters",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "'Flavour"
                 ]
             },
@@ -1282,8 +1282,8 @@
                 "name": "Ground ginger",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1291,8 +1291,8 @@
                 "name": "Cinnamon",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1300,8 +1300,8 @@
                 "name": "Nutmeg",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1309,8 +1309,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1318,8 +1318,8 @@
                 "name": "Semi-sweet chocolate chips",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -1328,8 +1328,8 @@
                 "name": "Caramel",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1337,8 +1337,8 @@
                 "name": "Bourbon",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour"
                 ]
             }
@@ -1351,8 +1351,8 @@
                 "name": "Granulated sugar",
                 "amount": "50",
                 "unit": "grams",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1360,8 +1360,8 @@
                 "name": "Cornstarch",
                 "amount": "6",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flour",
                     "Catalyst"
                 ]
@@ -1370,8 +1370,8 @@
                 "name": "Salt",
                 "amount": "0.125",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1379,8 +1379,8 @@
                 "name": "Butter",
                 "amount": "15",
                 "unit": "grams",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -1389,8 +1389,8 @@
                 "name": "Raspberry flavoured wine cooler",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1399,8 +1399,8 @@
                 "name": "Almond extract",
                 "amount": "0.125",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1408,8 +1408,8 @@
                 "name": "Baking white chocolate",
                 "amount": "85",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1418,8 +1418,8 @@
                 "name": "All-purpose flour",
                 "amount": "306",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1427,8 +1427,8 @@
                 "name": "Granulated sugar",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1436,8 +1436,8 @@
                 "name": "Baking powder",
                 "amount": "2.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -1445,8 +1445,8 @@
                 "name": "Salt",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1454,8 +1454,8 @@
                 "name": "Whipping cream",
                 "amount": "400",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1464,8 +1464,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -1475,8 +1475,8 @@
                 "name": "Almond extract",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1484,8 +1484,8 @@
                 "name": "Baking white chocolate",
                 "amount": "85",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1493,8 +1493,8 @@
                 "name": "Powdered sugar",
                 "amount": "336",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1503,8 +1503,8 @@
                 "name": "Raspberry flavoured wine cooler",
                 "amount": "8",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1513,8 +1513,8 @@
                 "name": "Butter",
                 "amount": "42.5",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1522,8 +1522,8 @@
                 "name": "Almond extract",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             }
@@ -1536,8 +1536,8 @@
                 "name": "Amaretti cookie crumbs",
                 "amount": "1.25",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1546,8 +1546,8 @@
                 "name": "Butter",
                 "amount": "56",
                 "unit": "grams",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flavour",
                     "Binding"
                 ]
@@ -1556,8 +1556,8 @@
                 "name": "Cream cheese",
                 "amount": "900",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1566,8 +1566,8 @@
                 "name": "Granulated sugar",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1575,8 +1575,8 @@
                 "name": "Eggs",
                 "amount": "4",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -1586,8 +1586,8 @@
                 "name": "Ground ginger",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1595,8 +1595,8 @@
                 "name": "Cinnamon",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1604,8 +1604,8 @@
                 "name": "Nutmeg",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1613,8 +1613,8 @@
                 "name": "Pumpkin",
                 "amount": "1.75",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1622,8 +1622,8 @@
                 "name": "Whipping cream",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1632,8 +1632,8 @@
                 "name": "Powdered sugar",
                 "amount": "7",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1642,8 +1642,8 @@
                 "name": "Almond extract",
                 "amount": "0.125",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1651,8 +1651,8 @@
                 "name": "Roasted almonds",
                 "amount": "0.25",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1666,8 +1666,8 @@
                 "name": "Butter",
                 "amount": "60",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1675,8 +1675,8 @@
                 "name": "Oreo chocolate cookie",
                 "amount": "24",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture",
                     "Sweetner"
@@ -1686,8 +1686,8 @@
                 "name": "Cherry vanilla ice-cream",
                 "amount": "600",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1696,8 +1696,8 @@
                 "name": "Semi-sweet chocolate chips",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -1706,8 +1706,8 @@
                 "name": "Vanilla ice-cream",
                 "amount": "600",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1716,8 +1716,8 @@
                 "name": "Fudge ice-cream sauce",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -1726,8 +1726,8 @@
                 "name": "Sweetened Cherry",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1735,8 +1735,8 @@
                 "name": "Whipping cream",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1745,8 +1745,8 @@
                 "name": "Powdered sugar",
                 "amount": "7",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1760,8 +1760,8 @@
                 "name": "Semi-sweet chocolate chips",
                 "amount": "0.67",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -1770,8 +1770,8 @@
                 "name": "Pecans",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1780,8 +1780,8 @@
                 "name": "Brown sugar",
                 "amount": "70",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1790,8 +1790,8 @@
                 "name": "All-purpose flour",
                 "amount": "15.5",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1799,8 +1799,8 @@
                 "name": "Instant coffee",
                 "amount": "3",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1808,8 +1808,8 @@
                 "name": "All-purpose flour",
                 "amount": "365",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1817,8 +1817,8 @@
                 "name": "Baking powder",
                 "amount": "2",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -1826,8 +1826,8 @@
                 "name": "Salt",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1835,8 +1835,8 @@
                 "name": "Baking soda",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -1844,8 +1844,8 @@
                 "name": "Cinnamon",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1853,8 +1853,8 @@
                 "name": "Granulated sugar",
                 "amount": "200",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1862,8 +1862,8 @@
                 "name": "Butter",
                 "amount": "227",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1871,8 +1871,8 @@
                 "name": "Almond extract",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1880,8 +1880,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -1891,8 +1891,8 @@
                 "name": "Sour cream",
                 "amount": "245",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -1906,8 +1906,8 @@
                 "name": "All-purpose flour",
                 "amount": "170",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1915,8 +1915,8 @@
                 "name": "Granulated sugar",
                 "amount": "100",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1924,8 +1924,8 @@
                 "name": "Cinnamon",
                 "amount": "0.5",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -1933,8 +1933,8 @@
                 "name": "Vanilla",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1943,8 +1943,8 @@
                 "name": "Powdered sugar",
                 "amount": "60",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -1953,8 +1953,8 @@
                 "name": "Water",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Texture"
                 ]
             },
@@ -1962,8 +1962,8 @@
                 "name": "All-purpose flour",
                 "amount": "265",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -1971,8 +1971,8 @@
                 "name": "Granulated sugar",
                 "amount": "160",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -1980,8 +1980,8 @@
                 "name": "Shortening",
                 "amount": "50",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -1989,8 +1989,8 @@
                 "name": "Milk",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner",
                     "Flavour",
                     "Texture"
@@ -2000,8 +2000,8 @@
                 "name": "Baking powder",
                 "amount": "2.5",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour",
                     "Texture"
                 ]
@@ -2010,8 +2010,8 @@
                 "name": "Salt",
                 "amount": "0.75",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2019,8 +2019,8 @@
                 "name": "Eggs",
                 "amount": "1",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2030,8 +2030,8 @@
                 "name": "Blueberry",
                 "amount": "2",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner",
                     "Flavour"
                 ]
@@ -2045,8 +2045,8 @@
                 "name": "All-purpose flour",
                 "amount": "200",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -2054,8 +2054,8 @@
                 "name": "Granulated sugar",
                 "amount": "212.5",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -2063,8 +2063,8 @@
                 "name": "Water",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Texture"
                 ]
             },
@@ -2072,8 +2072,8 @@
                 "name": "Unsweetened cocoa powder",
                 "amount": "30",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Flour"
                 ]
@@ -2082,8 +2082,8 @@
                 "name": "Baking soda",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -2091,8 +2091,8 @@
                 "name": "Vegetable oil",
                 "amount": "77",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2100,8 +2100,8 @@
                 "name": "White vinegar",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Catalyst"
                 ]
             },
@@ -2109,8 +2109,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2118,8 +2118,8 @@
                 "name": "Chocolate fudge",
                 "amount": "1.25",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -2128,8 +2128,8 @@
                 "name": "Vanilla ice-cream",
                 "amount": "6",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -2138,8 +2138,8 @@
                 "name": "Chocolate candies",
                 "amount": "2",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2147,8 +2147,8 @@
                 "name": "Whipping cream",
                 "amount": "300",
                 "unit": "grams",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2162,8 +2162,8 @@
                 "name": "Semi-sweet chocolate chips",
                 "amount": "1.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -2172,8 +2172,8 @@
                 "name": "Butter",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2181,8 +2181,8 @@
                 "name": "All-purpose flour",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flour"
                 ]
             },
@@ -2190,8 +2190,8 @@
                 "name": "Granulated sugar",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -2199,8 +2199,8 @@
                 "name": "Eggs",
                 "amount": "4",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2210,8 +2210,8 @@
                 "name": "Butter",
                 "amount": "14.5",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2219,8 +2219,8 @@
                 "name": "Cornstarch",
                 "amount": "6",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Flour",
                     "Catalyst"
                 ]
@@ -2229,8 +2229,8 @@
                 "name": "Shortening",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Filling",
-                "sub-category": [
+                "component": "Filling",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2238,8 +2238,8 @@
                 "name": "Semi-sweet chocolate chips",
                 "amount": "0.25",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Emulsifier"
                 ]
@@ -2253,8 +2253,8 @@
                 "name": "Butter",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2262,8 +2262,8 @@
                 "name": "All-purpose flour",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flour"
                 ]
             },
@@ -2271,8 +2271,8 @@
                 "name": "Granulated sugar",
                 "amount": "1.25",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -2280,8 +2280,8 @@
                 "name": "Egg yolks",
                 "amount": "1",
                 "unit": "pc",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2291,8 +2291,8 @@
                 "name": "Sweet potato",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2301,8 +2301,8 @@
                 "name": "Cinnamon",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2310,8 +2310,8 @@
                 "name": "Nutmeg",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2319,8 +2319,8 @@
                 "name": "Vanilla",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2328,8 +2328,8 @@
                 "name": "Cream cheese",
                 "amount": "625",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2338,8 +2338,8 @@
                 "name": "Eggs",
                 "amount": "4",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2349,8 +2349,8 @@
                 "name": "All-purpose flour",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flour"
                 ]
             },
@@ -2358,8 +2358,8 @@
                 "name": "Brown sugar",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -2368,8 +2368,8 @@
                 "name": "Butter",
                 "amount": "86",
                 "unit": "grams",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2377,8 +2377,8 @@
                 "name": "Cinnamon",
                 "amount": "1",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2386,8 +2386,8 @@
                 "name": "Pecans",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Frosting",
-                "sub-category": [
+                "component": "Frosting",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2401,8 +2401,8 @@
                 "name": "Butter",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2410,8 +2410,8 @@
                 "name": "All-purpose flour",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flour"
                 ]
             },
@@ -2419,8 +2419,8 @@
                 "name": "Granulated sugar",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Sweetner"
                 ]
             },
@@ -2428,8 +2428,8 @@
                 "name": "Egg yolks",
                 "amount": "1",
                 "unit": "pc",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2439,8 +2439,8 @@
                 "name": "Orange zest",
                 "amount": "3",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2448,8 +2448,8 @@
                 "name": "Lemon zest",
                 "amount": "3",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2457,8 +2457,8 @@
                 "name": "Salt",
                 "amount": "0.25",
                 "unit": "teaspoon",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour"
                 ]
             },
@@ -2466,8 +2466,8 @@
                 "name": "Eggs",
                 "amount": "5",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2477,8 +2477,8 @@
                 "name": "Egg yolks",
                 "amount": "2",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2488,8 +2488,8 @@
                 "name": "Whipping cream",
                 "amount": "0.25",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2498,8 +2498,8 @@
                 "name": "Whipping cream",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2507,7 +2507,7 @@
             {
                 "name": "almonds",
                 "amount": "Topping",
-                "sub-category": [
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2521,8 +2521,8 @@
                 "name": "Graham cracker crumbs",
                 "amount": "1.75",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2531,8 +2531,8 @@
                 "name": "Brown sugar",
                 "amount": "0.25",
                 "unit": "cups",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -2541,8 +2541,8 @@
                 "name": "Butter",
                 "amount": "0.5",
                 "unit": "grams",
-                "category": "Crust",
-                "sub-category": [
+                "component": "Crust",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2550,8 +2550,8 @@
                 "name": "Cream cheese",
                 "amount": "675",
                 "unit": "grams",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2560,8 +2560,8 @@
                 "name": "Brown sugar",
                 "amount": "1",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -2570,8 +2570,8 @@
                 "name": "Eggs",
                 "amount": "3",
                 "unit": "pc",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Emulsifier",
                     "Flavour",
                     "Texture"
@@ -2581,8 +2581,8 @@
                 "name": "Whipping cream",
                 "amount": "0.75",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2591,8 +2591,8 @@
                 "name": "Caramel coffee syrup",
                 "amount": "0.25",
                 "unit": "cups",
-                "category": "Base",
-                "sub-category": [
+                "component": "Base",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2601,8 +2601,8 @@
                 "name": "Butter",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Emulsifier"
                 ]
             },
@@ -2610,8 +2610,8 @@
                 "name": "Brown sugar",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Sweetner"
                 ]
@@ -2620,8 +2620,8 @@
                 "name": "Caramel coffee syrup",
                 "amount": "2",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2630,8 +2630,8 @@
                 "name": "Whipping cream",
                 "amount": "0.5",
                 "unit": "cups",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour",
                     "Texture"
                 ]
@@ -2640,8 +2640,8 @@
                 "name": "Flaked sea salt",
                 "amount": "1.5",
                 "unit": "teaspoon",
-                "category": "Topping",
-                "sub-category": [
+                "component": "Topping",
+                "property": [
                     "Flavour"
                 ]
             }
