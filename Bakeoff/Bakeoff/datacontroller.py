@@ -8,21 +8,21 @@ data = {}
 #load the current data
 def loadData():
     global data 
-    global ingredient_property_dict 
-    global ingredient_subtype_dict
+    global ingredient_component_dict 
+    global ingredient_property_dict
 
+    ingredient_component_dict = collections.defaultdict()
     ingredient_property_dict = collections.defaultdict()
-    ingredient_subtype_dict = collections.defaultdict()
 
-    with open('inspiring_set.json', 'r') as readfile:
+    with open('Bakeoff\Bakeoff\inspiring_set.json', 'r') as readfile:
         data = json.loads(readfile.read())
 
-    ingredient_list = [ingredient for recipy in list(data.values()) for ingredient in recipy["ingredients"]]
+    ingredient_list = [ingredient for recipe in list(data.values()) for ingredient in recipe["ingredients"]]
 
     for ingredient in ingredient_list:
-        ingredient_property_dict.setdefault(ingredient["component"], []).append(ingredient) 
-        for subtype in ingredient["property"]:
-            ingredient_subtype_dict.setdefault(subtype, []).append(ingredient) 
+        ingredient_component_dict.setdefault(ingredient["component"], []).append(ingredient) 
+        for property in ingredient["property"]:
+            ingredient_property_dict.setdefault(property, []).append(ingredient) 
 
 #completly overwrite the previous data with the current data
 def saveData():
@@ -34,18 +34,18 @@ def saveData():
 def define_whole_new_recipe(name,ingredients):
     define_new_recipe(name)
     for ingredient in ingredients:
-        add_ingredients_to_recipy(name,ingredient[1],ingredient[2],ingredient[3],ingredient[4],ingredient[0])
+        add_ingredients_to_recipe(name,ingredient[1],ingredient[2],ingredient[3],ingredient[4],ingredient[0])
 
 #create a new recipe with only a name
 def define_new_recipe(name):
     data[name] = dataContainer()
 
-#add ingredients to a already excisting recipy
-def add_ingredients_to_recipy(name,ingredient_unit,ingredient_name,ingredient_type,ingredient_subtype,ingredient_amount=1):
+#add ingredients to a already excisting recipe
+def add_ingredients_to_recipe(name,ingredient_unit,ingredient_name,ingredient_type,ingredient_subtype,ingredient_amount=1):
     data[name].add_ingredient(ingredient_unit,ingredient_name,ingredient_type,ingredient_subtype, ingredient_amount)
 
 
-#recipy container
+#recipe container
 class dataContainer(dict):
     def __init__(self):
         self["ingredients"] = list()

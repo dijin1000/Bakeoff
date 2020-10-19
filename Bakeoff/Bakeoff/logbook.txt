@@ -3,12 +3,15 @@
 13/10   Unmukt: Accustomed to the setup created by Egon and added a few reflections based on my ideas of the Inspiring Set. ( 1/2 hour )
 15/10	Egon: Adding some additions towards the mutation operator and the crossover operator. Discussed with Unkmut to match the description of the inspiring set. ( 3 hour)
 15/10   Unmukt: Setup an Inspiring Set of cake recipes. The idea was to create recipes based on a machanism that factored in the purpose of each ingredient in a recipe. I use my own knowledge and instincts as a home chef with a cooking experiece of 6 years, as well as insights from a popular bakery. ( 6 hours )
-16/10   Unmukt: Finalize the Inspiring Set and Knowledge base. ( 2 hours )
+16/10   Unmukt: Changes to the Inspiring Set and Knowledge base. ( 2 hours )
 16/10	Egon: Updated the mutation operator and the crossover operator to work with different kind of setups, and realistic approaches instead of toy functionalities. (2 hour)
 17/10	Egon: Updated the mutation operator and the crossover operator to work with different kind of setups, and realistic approaches instead of toy functionalities. (3 hour)
 17/10	Egon: Implemented a toy evaluation function. ( 1/2 hour)
 17/10	Egon: Updated the considerations for this project. ( 1 hour)
-17/10   Unmukt: 
+17/10   Unmukt: Concretized Knowledge Base in order to imporve fitness function ( 1 hour )
+17/10   Unmukt: Improved the Inspiring Set in order to fit our model better ( 1 hour )
+17/10   Unmukt: Basic implementation of a cookbook ( 1 hour )
+18/10   Unmukt: 
 
 Considerations:
 The first step is that we took in the consideration how we want to shape the inspiring set. As we needed specific information for the inspiring set to work in the Genetic Algorithm. We decided to work with inside information to make more sense in the recipies. We decide that ingredients have two extra identifiers we will be using in the recipy generator. The type which indicates for which kind of steps the ingredients are used in. The other was a one to many indentifier which is a subcategory of the base category. 
