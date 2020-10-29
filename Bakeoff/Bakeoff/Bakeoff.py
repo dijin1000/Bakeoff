@@ -5,7 +5,12 @@ import collections
 from operator import itemgetter
 from datacontroller import data as data
 from progress.spinner import Spinner
-from progress.bar import Bar
+from progress.bar import bar
+from reportlab.pdfgen.canvas import Canvas
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase import pdfmetrics
+from reportlab.lib import colors, utils, units
+from reportlab.platypus import Image, Frame
 
 #configuration settings
 _mu = 50
@@ -50,9 +55,9 @@ def parentSelection():
     return (r1[0],r2[0])
 
 #The crossover operator on two individuals holding only one child. It crossover on
-#similiar on the bases component within the two ingredients.
+#similiar on the basis of the cake 'component' within the two ingredients.
 def crossoverOperator(r1,r2):
-    dict = defaultdict()
+    dict = collections.defaultdict()
 
     for ingredient in r1:
         dict.setdefault(_ingredient["component"], []).append((1,ingredient))
@@ -70,21 +75,21 @@ def crossoverOperator(r1,r2):
             
     return crossovered
 
-#A subroutine that based on the subtype(property of the ingredient finds a ingredient 
+#A subroutine that based on the subtype(property) of the ingredient finds a ingredient 
 #that shares that subtype. This can introduce also other new subtypes, if the new ingredient
 #shares other subtypes.
 def convertion(property_list,ingredient):
     property_idx = rnd.randint(0,len(property_list)-1)
     property = property_list[property_idx]
 
-    list = dc.ingredient_subtype_dict[property]
+    list = dc.ingredient_property_dict[property]
 
     idx = rnd.randint(0,len(list)-1)
 
     return list[idx]
 
 #The mutating operator that mutates a single individual. It individual has a chance
-#to mutate the type of ingredient and the amount by a fixed max amount.
+#to mutate the type of ingredient and it's amount by a fixed max value.
 def mutationOperator(r1):
     for i in range(len(r1)):
         if(rnd.random() < _mutation_type):
@@ -99,7 +104,7 @@ def selectionOperator(individuals):
     individuals.sort(key=lambda tuple:tuple[1],reverse=True)
     return individuals[0:_mu]
 
-#The normalization operator to ensure that the recipies are correct and feasiable.
+#The normalization operator to ensure that the recipes are correct and feasiable.
 def normaliseOperator(r1):
     ingredient_dict = collections.defaultdict()
 
@@ -118,13 +123,13 @@ def normaliseOperator(r1):
     r1 = new_ingredient_list
     return r1
 
-#The evaluation function that determines how good the recipy is.
+#The evaluation function that determines how good the recipe is.
 def evaluateFunction(r1):
     
     #for ingredient in r1["ingredients"]:
 
 
-    return len(r1) + len(set([recipy["property"] for recipy in r1]))*10 + len(set([recipy["component"] for recipy in r1])) * 50
+    return len(r1) + len(set([recipe["property"] for recipe in r1]))*10 + len(set([recipe["component"] for recipe in r1])) * 50
 
 #A step in the genetic process.
 def geneticStep():
@@ -144,9 +149,6 @@ def geneticStep():
     generation = selectionOperator(generation + children)
     return
 
-def print_recipy(recipy):
-    return
-
 
 #The complete program
 dc.loadData()
@@ -158,7 +160,10 @@ max_fitnesses = []
 min_fitnesses = []
 
 global best_found_solution
-best_found_solution = "No recipy found",0
+global recipe_list
+
+best_found_solution = "No recipe found",0
+recipe_list = []
 
 with Bar('Processing', max=_steps) as bar:
     for currentsteps in range(_steps): #and currentconvergence > _convergence):
@@ -177,12 +182,9 @@ with Bar('Processing', max=_steps) as bar:
         min_fitnesses.append(worstFit)
         max_fitnesses.append(bestFit)
         bar.next()
+        recipe_list.append(best_found_solution)
 
-
-
-for recipy in generation:
-    print_recipy(recipy)
-
+#Plots.
 x  = range(currentsteps)
 plt.plot(x, max_fitnesses, label="line L")
 plt.fill_between(x, min_fitnesses, max_fitnesses, alpha=0.2)
@@ -193,3 +195,60 @@ plt.ylabel("fitness")
 plt.title("fitness over time")
 plt.legend()
 plt.show()
+
+
+#Cookbook.
+#Define setup for a resulting cookbook.
+cookbook = Canvas('Group-9_CookBook.pdf')
+cookbook.setTitle('A_CookBook_for_Cake_Recipes')
+
+#Define Fonts.
+pdfmetrics.registerFont( TTFont('Title', 'WildHazelnut.ttf') )
+pdfmetrics.registerFont( TTFont('Subtitle', 'Gabriola.ttf') )
+pdfmetrics.registerFont( TTFont('Text', 'verdana.ttf') )
+
+#Cover Page.
+#Title.
+cookbook.setFillColorRGB(0.42,0.21,0.00)
+cookbook.setFont('Title', 48)
+cookbook.drawCentredString(300,750, 'A CookBook for Cake Recipes')
+
+cookbook.line(30, 700, 565, 700)
+
+#Abstract.
+Abstract = ['This is our Cookbook that comprises of various generated Cake recipes.', 'All of them have been created by feeding in our Inspiration Set to our', ' Genetic Algorithm, which then computes the best recipes in accordance', 'with our fitness function. And thats about it.']
+text = cookbook.beginText(80, 600)
+text.setFont('Text', 12)
+cookbook.setFillColorRGB(0.24,0.05,0.01)
+
+for line in Abstract:
+    text.textLines(line)
+
+cookbook.drawText(text)
+
+#Image.
+def get_image(path, width=1*units.cm):
+    img = utils.ImageReader(path)
+    iw, ih = img.getSize()
+    aspect = ih / float(iw)
+    return Image(path, width=width, height=(width * aspect))
+
+frame = Frame(0*units.cm, 0*units.cm, 14*units.cm, 10*units.cm, showBoundary = 0)
+cover = []
+cover.append(get_image('cover.jpg', width = 12*units.cm))
+frame.addFromList(cover, cookbook)
+
+#Credits.
+cookbook.setFillColorRGB(0.96,0.72,0.00)
+cookbook.setFont('Subtitle', 22)
+cookbook.drawCentredString(500, 120, 'Egon Janssen (s_______)')
+cookbook.drawCentredString(500, 95, 'Unmukt Deswal (s2310171)')
+
+
+#Recipe pages generator.
+for recipe in recipe_list:
+    print('TODO')
+
+
+#Save PDF.
+cookbook.save()

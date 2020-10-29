@@ -7,7 +7,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -16,7 +16,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -25,9 +25,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -54,7 +53,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -102,7 +101,8 @@
                 "component": "Topping",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener",
+                    "Fat"
                 ]
             }
         ],
@@ -116,7 +116,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -125,7 +125,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -134,9 +134,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -163,7 +162,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -211,7 +210,7 @@
                 "component": "Frosting",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -220,7 +219,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -229,7 +228,7 @@
                 "unit": "teaspoon",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Liquid"
                 ]
             },
             {
@@ -247,8 +246,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             }
         ],
@@ -271,7 +269,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -290,7 +288,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -308,7 +306,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -317,7 +315,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Flavour"
+                    "Liquid"
                 ]
             },
             {
@@ -344,9 +342,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -364,7 +361,7 @@
                 "unit": "cups",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Liquid"
                 ]
             },
             {
@@ -373,8 +370,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -383,7 +379,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -415,7 +411,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -424,7 +420,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -433,7 +429,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -470,7 +466,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -479,9 +475,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -508,8 +503,7 @@
                 "unit": "pc",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Liquid"
                 ]
             },
             {
@@ -518,8 +512,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -528,7 +521,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -589,7 +582,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -607,7 +600,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -616,7 +609,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -625,9 +618,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -645,7 +637,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Flavour"
+                    "Liquid"
                 ]
             },
             {
@@ -654,9 +646,7 @@
                 "unit": "pc",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -665,8 +655,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -675,7 +664,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -684,9 +673,8 @@
                 "unit": "cups",
                 "component": "Frosting",
                 "property": [
-                    "Sweetner",
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Liquid"
                 ]
             },
             {
@@ -739,7 +727,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -748,7 +736,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -757,9 +745,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -787,8 +774,8 @@
                 "unit": "grams",
                 "component": "Topping",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             }
         ],
@@ -811,7 +798,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -829,7 +816,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -838,7 +825,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -847,9 +834,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -867,9 +853,8 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Sweetner",
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Liquid"
                 ]
             }
         ],
@@ -892,7 +877,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -910,7 +895,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -919,7 +904,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -928,9 +913,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -948,9 +932,8 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Sweetner",
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Liquid"
                 ]
             },
             {
@@ -960,7 +943,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -969,7 +952,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -978,8 +961,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -998,7 +980,7 @@
                 "unit": "teaspoon",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Liquid"
                 ]
             },
             {
@@ -1021,9 +1003,8 @@
                 "unit": "pc",
                 "component": "Filling",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -1032,7 +1013,7 @@
                 "unit": "cups",
                 "component": "Filling",
                 "property": [
-                    "Emulsifier"
+                    "Liquid"
                 ]
             },
             {
@@ -1041,7 +1022,7 @@
                 "unit": "grams",
                 "component": "Filling",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1051,7 +1032,7 @@
                 "component": "Filling",
                 "property": [
                     "Flour",
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -1087,7 +1068,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1096,7 +1077,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1105,9 +1086,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Sweetner",
-                    "Flavour",
-                    "Texture"
+                    "Liquid"
                 ]
             },
             {
@@ -1135,9 +1114,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -1146,7 +1124,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1174,8 +1152,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1208,8 +1185,7 @@
                 "unit": "grams",
                 "component": "Crust",
                 "property": [
-                    "Flavour",
-                    "Binding"
+                    "Fat"
                 ]
             },
             {
@@ -1219,7 +1195,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -1228,7 +1204,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1246,9 +1222,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -1321,7 +1296,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1353,7 +1328,7 @@
                 "unit": "grams",
                 "component": "Filling",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1363,7 +1338,7 @@
                 "component": "Filling",
                 "property": [
                     "Flour",
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -1382,7 +1357,7 @@
                 "component": "Filling",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1392,7 +1367,7 @@
                 "component": "Filling",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1429,7 +1404,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1438,7 +1413,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -1456,8 +1431,8 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -1466,9 +1441,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -1495,8 +1469,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1506,7 +1479,7 @@
                 "component": "Frosting",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1515,7 +1488,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1559,7 +1532,7 @@
                 "component": "Frosting",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -1568,7 +1541,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1577,9 +1550,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -1624,8 +1596,8 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -1634,8 +1606,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1668,7 +1639,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1679,7 +1650,7 @@
                 "property": [
                     "Flavour",
                     "Texture",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1689,7 +1660,8 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -1699,7 +1671,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1709,7 +1681,8 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -1719,7 +1692,8 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -1737,8 +1711,8 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -1747,8 +1721,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             }
         ],
@@ -1763,7 +1736,7 @@
                 "component": "Frosting",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1783,7 +1756,7 @@
                 "component": "Frosting",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1819,7 +1792,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -1837,7 +1810,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -1855,7 +1828,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1864,7 +1837,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1882,9 +1855,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -1894,7 +1866,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             }
         ],
@@ -1917,7 +1889,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1936,7 +1908,7 @@
                 "component": "Topping",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1945,8 +1917,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1973,7 +1944,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -1982,7 +1953,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -1991,9 +1962,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Sweetner",
-                    "Flavour",
-                    "Texture"
+                    "Liquid"
                 ]
             },
             {
@@ -2021,9 +1990,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -2032,7 +2000,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Sweetner",
+                    "Sweetener",
                     "Flavour"
                 ]
             }
@@ -2056,7 +2024,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2084,7 +2052,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -2093,7 +2061,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2102,7 +2070,7 @@
                 "unit": "teaspoon",
                 "component": "Base",
                 "property": [
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -2121,7 +2089,7 @@
                 "component": "Topping",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2131,7 +2099,8 @@
                 "component": "Topping",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -2149,8 +2118,8 @@
                 "unit": "grams",
                 "component": "Topping",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             }
         ],
@@ -2165,7 +2134,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2174,7 +2143,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2192,7 +2161,7 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2201,9 +2170,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -2212,7 +2180,7 @@
                 "unit": "grams",
                 "component": "Base",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2222,7 +2190,7 @@
                 "component": "Filling",
                 "property": [
                     "Flour",
-                    "Catalyst"
+                    "Leavener"
                 ]
             },
             {
@@ -2231,7 +2199,7 @@
                 "unit": "teaspoon",
                 "component": "Filling",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2241,7 +2209,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Emulsifier"
+                    "Fat"
                 ]
             }
         ],
@@ -2255,7 +2223,7 @@
                 "unit": "cups",
                 "component": "Crust",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2273,7 +2241,7 @@
                 "unit": "cups",
                 "component": "Crust",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2282,9 +2250,7 @@
                 "unit": "pc",
                 "component": "Crust",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -2331,7 +2297,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -2340,9 +2306,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -2361,7 +2326,7 @@
                 "component": "Frosting",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2370,7 +2335,7 @@
                 "unit": "grams",
                 "component": "Frosting",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2403,7 +2368,7 @@
                 "unit": "cups",
                 "component": "Crust",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2421,7 +2386,7 @@
                 "unit": "cups",
                 "component": "Crust",
                 "property": [
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2430,9 +2395,7 @@
                 "unit": "pc",
                 "component": "Crust",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -2468,9 +2431,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -2479,9 +2441,7 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -2490,8 +2450,8 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -2500,8 +2460,8 @@
                 "unit": "cups",
                 "component": "Topping",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             }
         ],
@@ -2526,7 +2486,7 @@
                 "component": "Crust",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2535,7 +2495,7 @@
                 "unit": "grams",
                 "component": "Crust",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2545,7 +2505,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Texture"
+                    "Fat"
                 ]
             },
             {
@@ -2555,7 +2515,7 @@
                 "component": "Base",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2564,9 +2524,8 @@
                 "unit": "pc",
                 "component": "Base",
                 "property": [
-                    "Emulsifier",
-                    "Flavour",
-                    "Texture"
+                    "Fat",
+                    "Liquid"
                 ]
             },
             {
@@ -2575,8 +2534,8 @@
                 "unit": "cups",
                 "component": "Base",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
@@ -2595,7 +2554,7 @@
                 "unit": "cups",
                 "component": "Topping",
                 "property": [
-                    "Emulsifier"
+                    "Fat"
                 ]
             },
             {
@@ -2605,7 +2564,7 @@
                 "component": "Topping",
                 "property": [
                     "Flavour",
-                    "Sweetner"
+                    "Sweetener"
                 ]
             },
             {
@@ -2624,8 +2583,8 @@
                 "unit": "cups",
                 "component": "Topping",
                 "property": [
-                    "Flavour",
-                    "Texture"
+                    "Sweetener",
+                    "Fat"
                 ]
             },
             {
