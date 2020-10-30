@@ -189,12 +189,11 @@ def stringfyTitle(title):
         titlestring += l 
     return titlestring
 
-def addPoem(corpus,file):
+def addPoem(corpus,file,nmbr_couplets):
 
     title = generateTitle(corpus)
     processing(title) 
     title = stringfyTitle(title)
-    nmbr_couplets = 2
     couplets = []
     poem = ""
     for i in range(nmbr_couplets):

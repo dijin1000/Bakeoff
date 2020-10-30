@@ -4,3 +4,7 @@
 29/10/2020	Egon	Implemented the rhyming part of a couplet. And making the couplets in a 2 lines rhyming rhythm (Example: 8 lines means AA-BB-CC-DD) ( 3 hour)
 29/10/2020	Egon	Added a title to the poem. (1 hour)
 29/10/2020	Egon	Made a start for the presentation of the poems in the format of a simple html webpage. ( 1.5 hours)
+30/10/2020	Egon	Added structure to the project. (1/2 hour)
+30/10/2020	Egon	Added the readme file for instructions of code running (1/2 hour)
+30/10/2020	Egon	Turned the python into a executable ( 1 hour)
+30/10/2020	Egon	Cleanup code(1 hour)

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23f6393b-76bb-4237-9fec-2ce5d8be54b8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PoemGenerator.py</StartupFile>
+    <StartupFile>Code\PoemGenerator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,17 +21,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="functions.py">
+    <Compile Include="Code\functions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PoemGenerator.py" />
+    <Compile Include="Code\PoemGenerator.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Logbook.txt" />
-    <Content Include="poems.html" />
+    <Content Include="Reporting\Logbook.txt" />
+    <Content Include="Data_Output\poems.html" />
     <Content Include="Readme.txt" />
-    <Content Include="Reflection.txt" />
-    <Content Include="stories.json" />
+    <Content Include="Reporting\Reflection.txt" />
+    <Content Include="Data_Output\stories.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
+    <Folder Include="Data_Output\" />
+    <Folder Include="Executable\" />
+    <Folder Include="Reporting\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
