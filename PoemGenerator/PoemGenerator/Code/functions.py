@@ -202,7 +202,10 @@ def addPoem(corpus,file,nmbr_couplets):
         couplet = stringfyText(couplet)
         poem += couplet + "<br />"
 
-    message = """<head><p style="text-align:center;font-family:Book Antiqua;font-size:20px">{0}\n</p></head><body><p style="text-align:center;font-family:Book Antiqua;font-size:11px">{1}\n</p></body>
+    message = """<article class="w3-third">
+    <p style="font-size:20px">{0}</p>
+    <p><i>{1}</i></p>
+  </article>
     """.format(title,poem)
 
     file.write(message)

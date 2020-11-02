@@ -9,4 +9,4 @@ The python program can be runnend within a appropriate python 3.7 enviroment wit
 - the pronouncing module for a good indication which words in the corpus rhyme with each other in order to create a rhyming poem.
 - the numpy package, for standard numpy array's.
 
-Within the python program, the program operates with three variables that can be either given as parameters or given to the program if executed. Being a True or False question if you need to download the corpus ( only needed the first time.) The second parameter will be how many poems should be generated.
+Within the python program, the program operates with three variables that can be either given as parameters or given to the program if executed. Being a True or False question if you need to download the corpus ( only needed the first time.) The second parameter will be how many poems should be generated. And the third will be the parameters of how many couplets a poems should contain.

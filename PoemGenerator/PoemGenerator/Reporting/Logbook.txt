@@ -8,3 +8,4 @@
 30/10/2020	Egon	Added the readme file for instructions of code running (1/2 hour)
 30/10/2020	Egon	Turned the python into a executable ( 1 hour)
 30/10/2020	Egon	Cleanup code(1 hour)
+02/11/2020	Egon	Html update (1 1/2 hour)

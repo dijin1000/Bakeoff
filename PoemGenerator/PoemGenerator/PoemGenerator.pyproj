@@ -27,6 +27,12 @@
     <Compile Include="Code\PoemGenerator.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data_Output\Images\img_1.jpg" />
+    <Content Include="Data_Output\Images\img_2.jpg" />
+    <Content Include="Data_Output\Images\img_3.jpg" />
+    <Content Include="Data_Output\Images\img_4.jpg" />
+    <Content Include="Data_Output\Images\img_5.jpg" />
+    <Content Include="Data_Output\style.css" />
     <Content Include="Reporting\Logbook.txt" />
     <Content Include="Data_Output\poems.html" />
     <Content Include="Readme.txt" />
@@ -36,6 +42,7 @@
   <ItemGroup>
     <Folder Include="Code\" />
     <Folder Include="Data_Output\" />
+    <Folder Include="Data_Output\Images\" />
     <Folder Include="Executable\" />
     <Folder Include="Reporting\" />
   </ItemGroup>
