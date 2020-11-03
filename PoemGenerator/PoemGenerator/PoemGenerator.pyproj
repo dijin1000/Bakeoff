@@ -33,18 +33,28 @@
     <Content Include="Data_Output\Images\img_4.jpg" />
     <Content Include="Data_Output\Images\img_5.jpg" />
     <Content Include="Data_Output\style.css" />
-    <Content Include="Reporting\Logbook.txt" />
     <Content Include="Data_Output\poems.html" />
+    <Content Include="Logbook.pdf" />
+    <Content Include="Poems_Website\Images\img_1.jpg" />
+    <Content Include="Poems_Website\Images\img_2.jpg" />
+    <Content Include="Poems_Website\Images\img_3.jpg" />
+    <Content Include="Poems_Website\Images\img_4.jpg" />
+    <Content Include="Poems_Website\Images\img_5.jpg" />
+    <Content Include="Poems_Website\poems.html" />
+    <Content Include="Poems_Website\style.css" />
     <Content Include="Readme.txt" />
-    <Content Include="Reporting\Reflection.txt" />
     <Content Include="Data_Output\stories.json" />
+    <Content Include="Zips\All_Deliverables.zip" />
+    <Content Include="Zips\Poems_Website.zip" />
+    <Content Include="Zips\Source_Code.zip" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Code\" />
     <Folder Include="Data_Output\" />
     <Folder Include="Data_Output\Images\" />
-    <Folder Include="Executable\" />
-    <Folder Include="Reporting\" />
+    <Folder Include="Poems_Website\" />
+    <Folder Include="Poems_Website\Images\" />
+    <Folder Include="Zips\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
